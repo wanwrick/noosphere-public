@@ -12,8 +12,8 @@
 ## Step 1 — Copy the template into your platform repo (3 min)
 
 ```bash
-git clone https://github.com/wanwrick/noosphere.git
-cp -r noosphere/templates/dabs-data-product-template/ \
+git clone https://github.com/wanwrick/noosphere-public.git
+cp -r noosphere-public/templates/dabs-data-product-template/ \
       <your-platform-repo>/data-products/<product-name>/
 cd <your-platform-repo>/data-products/<product-name>/
 git add . && git commit -m "feat(data-product): scaffold from DABs Data-Contract Golden Path"
